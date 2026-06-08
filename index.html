@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>STWEG MASTER – Smart Property Management</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="logo">⌂</div>
+        <div><h1>STWEG MASTER</h1><p>Smart Property Management</p></div>
+      </div>
+      <nav id="nav"></nav>
+      <div class="side-card"><b>Ein Journal.</b><br>Eine Wahrheit.<br>Eine Plattform.</div>
+    </aside>
+    <main>
+      <header class="topbar">
+        <div><p class="eyebrow">STWEG Fichtenweg 5 · 4244 Röschenz BL</p><h2 id="pageTitle">Dashboard</h2></div>
+        <div class="actions"><button class="ghost" id="exportBtn">Backup exportieren</button><button class="primary" data-view="journal">+ Neue Buchung</button></div>
+      </header>
+      <section id="viewRoot"></section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
